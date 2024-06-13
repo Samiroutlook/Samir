@@ -28,6 +28,10 @@ const colors = {
     800: "#202023", // Custom dark mode background color
     900: "#171923",
   },
+  transparent: {
+    502: "rgba(255,255,255,0.3)",
+    50: "rgba(255,255,255,0.1)",
+  },
   // Add more custom colors if needed
 };
 

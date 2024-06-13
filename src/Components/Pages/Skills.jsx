@@ -7,7 +7,7 @@ function Projects() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 1, ease: "easeOut" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <Grid
         placeItems={"center"}
@@ -15,7 +15,7 @@ function Projects() {
         fontWeight={600}
         fontSize={["2xl", "3xl", "3xl"]}
       >
-        Hello, I am Projects
+        Hello, I am Skills
       </Grid>
     </motion.div>
   );
