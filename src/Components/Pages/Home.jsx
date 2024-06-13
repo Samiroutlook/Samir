@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Grid,
-  Box,
-  Flex,
-  useColorMode,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Box, Flex, useColorModeValue, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 function Home() {
@@ -30,6 +24,14 @@ function Home() {
           >
             Hello, I'm a Web-Developer from Bangladesh.
           </Box>
+        </Flex>
+        <Flex justifyContent={"center"} w={"full"} mt={4}>
+          <Image
+            src="./images/my.jpg"
+            alt="hello"
+            boxSize="200px"
+            borderRadius="full"
+          />
         </Flex>
       </Box>
     </motion.div>
