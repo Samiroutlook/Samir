@@ -10,7 +10,7 @@ function Home() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
     >
       <Box w={"full"} h={"100vh"} pt={14}>
         <Flex justifyContent={"center"} w={"full"} px={6}>
@@ -53,12 +53,10 @@ function Home() {
             Samir Alam
           </Text>
           <Text w={["95vw", "460px", "500px"]} textAlign={"center"} mt={4}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur recusandae iusto culpa eum dolorum voluptatum fuga
-            cumque, necessitatibus impedit? Harum dicta libero unde, sequi porro
-            maiores iure assumenda quaerat eius. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Delectus, ratione? Lorem, ipsum dolor
-            sit amet consectetur adipisicing elit. Ab, perspiciatis.
+            Hi, I'm Samir! I'm a passionate web developer with 3 years of
+            experience, currently studying in Class VII. My journey in web
+            development has equipped me with a robust skill set in both frontend
+            and backend technologies.
           </Text>
         </Flex>
         <Stack
@@ -75,25 +73,45 @@ function Home() {
             Hire Me
           </Button>
         </Stack>
-        <Stack direction={"row"} justifyContent={"center"} mt={5}>
-          <IconButton
-            _hover={{ color: "teal.200" }}
-            size={"lg"}
-            fontSize={"30px"}
-            icon={<i className="fa-brands fa-github"></i>}
-          ></IconButton>
-          <IconButton
-            _hover={{ color: "teal.200" }}
-            size={"lg"}
-            fontSize={"30px"}
-            icon={<i className="fa-brands fa-facebook"></i>}
-          ></IconButton>
-          <IconButton
-            _hover={{ color: "teal.200" }}
-            size={"lg"}
-            fontSize={"30px"}
-            icon={<i className="fa-brands fa-instagram"></i>}
-          ></IconButton>
+        <Stack direction="row" justifyContent="center" mt={5}>
+          <a
+            href="https://github.com/Samiroutlook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconButton
+              _hover={{ color: "teal.200" }}
+              size="lg"
+              fontSize="30px"
+              icon={<i className="fa-brands fa-github"></i>}
+            />
+          </a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61557586985348"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconButton
+              _hover={{ color: "teal.200" }}
+              size="lg"
+              fontSize="30px"
+              icon={<i className="fa-brands fa-facebook"></i>}
+            />
+          </a>
+
+          <a
+            href="https://www.instagram.com/its_samir._14/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconButton
+              _hover={{ color: "teal.200" }}
+              size="lg"
+              fontSize="30px"
+              icon={<i className="fa-brands fa-instagram"></i>}
+            />
+          </a>
         </Stack>
       </Box>
     </motion.div>
