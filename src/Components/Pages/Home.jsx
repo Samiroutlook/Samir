@@ -84,6 +84,7 @@ function Home() {
               size="lg"
               fontSize="30px"
               icon={<i className="fa-brands fa-github"></i>}
+              bg={transparent}
             />
           </a>
 
@@ -97,6 +98,7 @@ function Home() {
               size="lg"
               fontSize="30px"
               icon={<i className="fa-brands fa-facebook"></i>}
+              bg={transparent}
             />
           </a>
 
@@ -110,6 +112,7 @@ function Home() {
               size="lg"
               fontSize="30px"
               icon={<i className="fa-brands fa-instagram"></i>}
+              bg={transparent}
             />
           </a>
         </Stack>
