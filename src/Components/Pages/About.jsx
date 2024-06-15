@@ -20,7 +20,7 @@ function About() {
           fontWeight={600}
         >
           <Box
-            fontSize={["sm", "md", "lg"]}
+            fontSize={["sm", "sm", "lg"]}
             w={["98vw", "70vw"]}
             textAlign={"left"}
             overflow={"auto"}
@@ -37,21 +37,21 @@ function About() {
               lineHeight={2}
               textUnderlineOffset={"5px"}
             >
-              <li>About Me</li>
+              <li>👨‍💼 About Me</li>
             </Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            atque minima debitis velit sit, exercitationem totam natus
-            blanditiis aliquid? Eligendi error architecto aliquam. Earum
-            possimus iure iusto quaerat quo exercitationem tempora? Et vero
-            magni ea eveniet mollitia, error alias quasi voluptate perspiciatis
-            dignissimos beatae aliquid officiis iure ipsa accusantium. Fugiat
+            Hello, I am Samir. I was born in 2011 19 July. My home district is
+            Zazira Soriotpur. I was shifted to Dhaka with my hole family in
+            2016. The journey of Web-Development was started at 2018. Currently
+            I'm studying in class VII at Government Laboratory High School. I
+            <span color="red"> &#x2764;</span> to listen Music, Programming,
+            Bike-Riding 🏍️.
           </Box>
           <Box
-            fontSize={["sm", "md", "lg"]}
+            fontSize={["sm", "sm", "lg"]}
             w={["98vw", "70vw"]}
             textAlign={"left"}
-            overflow={"hidden"}
             bg={"transparent"}
+            overflow={"auto"}
             rounded={"md"}
             p={4}
           >
@@ -64,17 +64,19 @@ function About() {
               textUnderlineOffset={"5px"}
               textColor={"teal.300"}
             >
-              <li>Work</li>
+              <li>&#x270E; Work</li>
             </Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            atque minima debitis velit sit, exercitationem totam natus
-            blanditiis aliquid? Eligendi error architecto aliquam. Earum
-            possimus iure iusto quaerat quo exercitationem tempora? Et vero
-            magni ea eveniet mollitia, error alias quasi voluptate perspiciatis
-            dignissimos beatae aliquid officiis iure ipsa accusantium. Fugiat
+            My working started alone. From 2020 i started to work with my school
+            friends. It have been passed a long time working with them. Then in
+            2023 we started a youtube channel{" "}
+            <Text display={"inline-block"} color="blue.300">
+              Codex BD
+            </Text>
+            . After that i joined my school ITC club 🖥️ with my friends and
+            seniors. Now i am finding a part-time online job.
           </Box>
           <Box
-            fontSize={["sm", "md", "lg"]}
+            fontSize={["sm", "sm", "lg"]}
             w={["98vw", "70vw"]}
             textAlign={"left"}
             overflow={"hidden"}
@@ -92,14 +94,13 @@ function About() {
               textUnderlineOffset={"5px"}
               textColor={"red.300"}
             >
-              <li>Education</li>
+              <li>&#x270D; Education</li>
             </Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            atque minima debitis velit sit, exercitationem totam natus
-            blanditiis aliquid? Eligendi error architecto aliquam. Earum
-            possimus iure iusto quaerat quo exercitationem tempora? Et vero
-            magni ea eveniet mollitia, error alias quasi voluptate perspiciatis
-            dignissimos beatae aliquid officiis iure ipsa accusantium. Fugiat
+            My first school was Little Angles School. When i was only in class
+            'I' i shifted to my current school 🏢 Government Laboratory High
+            School. I want to get admitted in Buet or Notrdem collage for
+            feature. I learned Web-Development from only Youtube. I learn too
+            much from it. I want to be a Full-Stack Web-Developer in future.
           </Box>
         </Flex>
       </Box>
