@@ -35,7 +35,7 @@ function Home() {
           mt={4}
         >
           <Image
-            src="./images/my.jpg"
+            src="./images/my.jpeg"
             alt="my-image"
             boxSize="200px"
             borderRadius="full"
